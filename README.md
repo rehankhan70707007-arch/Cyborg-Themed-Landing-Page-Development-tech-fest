@@ -1,48 +1,49 @@
 # CYBORG — The Next Evolution
 
-A responsive, cybernetic-themed concept landing page built with semantic HTML, CSS, and vanilla JavaScript.
+A premium, responsive cybernetic-themed concept landing page built with semantic HTML, CSS, and vanilla JavaScript.
 
 ## Features
-- Responsive layouts for desktop, tablet, and mobile
-- Original SVG cyborg illustration and custom favicon
-- Animated interface details and scroll-reveal transitions
+- Responsive desktop, tablet, and mobile layouts
+- Original cybernetic human-head SVG hero artwork and custom favicon
+- Animated interface details, orbital graphics, and scrolling ticker
 - Accessible mobile navigation with Escape-key support
-- Dark/light theme toggle
-- Reduced-motion support and semantic page landmarks
+- Interactive dark/light theme switch
+- Scroll-reveal transitions and reduced-motion support
 - No framework, build step, API key, or backend required
 
 ## Run locally
-1. Clone or download this repository.
-2. Open `index.html` in a browser.
+Open `index.html` directly in a browser, or run a local server from the project folder:
 
-For a local development server, run:
+```bash
+python -m http.server 8000
+```
 
-    python -m http.server 8000
+Then visit http://localhost:8000.
 
-Then open http://localhost:8000.
-
-## Deploy with GitHub Pages
-1. Open the repository's Settings → Pages.
-2. Under Build and deployment, choose Deploy from a branch.
-3. Select the main branch and the /(root) folder, then save.
-4. After the deployment completes, open the published URL shown in Pages.
+## Publish with GitHub Pages
+1. Open **Settings → Pages** in this repository.
+2. Under **Build and deployment**, select **Deploy from a branch**.
+3. Choose the `main` branch and the `/(root)` folder.
+4. Click **Save**. GitHub Pages will publish the site and show its public URL in this section.
 
 ## Project structure
-
-    .
-    ├── index.html
-    ├── styles.css
-    ├── script.js
-    ├── README.md
-    └── assets/
-        ├── cyborg-core.svg
-        └── favicon.svg
+```text
+.
+├── index.html
+├── styles.css
+├── script.js
+├── README.md
+├── .nojekyll
+└── assets/
+    ├── cyborg-core.svg
+    └── favicon.svg
+```
 
 ## Customization
-- Edit page copy and sections in index.html.
-- Update visual design and responsive breakpoints in styles.css.
-- Update navigation and theme behavior in script.js.
-- Replace hello@example.com in the final call-to-action with a real contact address before using it.
+- Page copy and sections: `index.html`
+- Design and responsive breakpoints: `styles.css`
+- Navigation, theme switch, and reveal behavior: `script.js`
+- Illustration and favicon: `assets/`
 
 ## Note
-This is an original fictional concept website. The interface metrics and cyborg systems are illustrative, not real product specifications. It is not an official IIT Bombay or Techfest website and does not use their branding.
+This is an original fictional concept website. Its interface metrics and cyborg systems are illustrative, not real product specifications. It is not an official IIT Bombay or Techfest website and does not use their branding.
